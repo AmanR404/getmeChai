@@ -41,7 +41,7 @@ export default function Home() {
           {/* Last Section */}
           <div className="flex flex-col justify-center items-center mb-10">
             <h2 className="font-bold text-white text-xl my-8">Learn More.</h2>
-            <iframe className="w-full" src="https://www.youtube.com/embed/8-EyxMuvE9A?si=Keql_tyauK8hshRr" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+           <img className="w-96" src="https://lectera.com/info/storage/img/20221226/17d39032a2d792c36904_808xFull.jpg" alt="img" />
           </div>
         </div>
       </div>
