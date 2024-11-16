@@ -1,6 +1,6 @@
 import React from 'react'
 
-const dashboard = ({ params }) => {
+const Dashboard = ({ params }) => {
   return (
     <div className='relative'>
       <img className='w-full h-72 object-cover' src="https://cdn.dribbble.com/users/88429/screenshots/4588331/media/d0f6e1020a6f36b3e02b1e3b87d6f6c9.gif" alt="" />
@@ -42,4 +42,4 @@ const dashboard = ({ params }) => {
   )
 }
 
-export default dashboard
+export default Dashboard
