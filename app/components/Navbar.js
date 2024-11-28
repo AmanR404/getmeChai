@@ -37,7 +37,7 @@ const Navbar = () => {
                />
             <nav className='flex justify-between bg-gray-900 pt-1 px-3'>
                 <Link href={'/'} className='flex gap-2 justify-center items-center'>
-                    <img width={44} src="/tea.gif" alt="" />
+                    <img width={44} height={44} src="/tea.gif" alt="" />
                     <h1 className='text-white font-bold'>Get me a Chai!</h1>
                 </Link>
                 <div className='flex justify-center items-center gap-3'>
@@ -51,7 +51,7 @@ const Navbar = () => {
         <div>
             <nav className='flex justify-between bg-gray-900 pt-1 px-3'>
                 <div className='flex gap-2 justify-center items-center'>
-                    <img width={44} src="/tea.gif" alt="" />
+                    <img width={44} height={44} src="/tea.gif" alt="" />
                     <h1 className='text-white font-bold'>Get me a Chai!</h1>
                 </div>
                 <Link href={'/login'}> <button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2 text-center me-2 mb-1">Login</button></Link>
