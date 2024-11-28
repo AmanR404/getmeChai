@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const page = () => {
+const Page = () => {
     const [form, setform] = useState({name : "", email: "", username : "", picture: "", razorpayid: ""})
 
     const handleSubmit = async() => {
@@ -69,4 +69,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
