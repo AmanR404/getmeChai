@@ -9,7 +9,7 @@ const Dashboard = ({ params }) => {
       </div>
       <div className='flex flex-col justify-center items-center mt-20 text-white'>
         <span className='text-white font-bold'>@{params.username}</span>
-        <p className='text-white opacity-55'>Creating Animated Art for VTT's</p>
+        <p className='text-white opacity-55'>Creating Animated Art for VTTs</p>
         <div className='flex gap-4  opacity-55'>
           <span>9,719 members</span> <span>82 posts</span> <span>15,450$ release</span>
         </div>
@@ -17,7 +17,7 @@ const Dashboard = ({ params }) => {
       <div className='flex flex-col md:flex-row gap-4 my-11 w-[80%] mx-auto text-white'>
         <div className='w-full rounded-md bg-slate-900'>
           <h2 className='font-bold p-5'>Supporters</h2>
-          <div className='flex gap-2 p-3 text-sm'><img className= 'w-9' src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png" alt="" /> <span>Shubham donated <b>30$</b> with a message "I support you bro. lots of ❤️</span></div>
+          <div className='flex gap-2 p-3 text-sm'><img className= 'w-9' src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png" alt="" /> <span>Shubham donated <b>30$</b> with a message I support you bro. lots of ❤️</span></div>
           <div className='flex gap-2 p-3 text-sm'><img className= 'w-9' src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png" alt="" /> <span>Atul donated <b>10$</b> with a message "Brother take 10$ itne hi hain"</span></div>
           <div className='flex gap-2 p-3 text-sm'><img className= 'w-9' src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png" alt="" /> <span>Elon Musk donated <b>300$</b> with a message "Jee le apni Zindagi" ❤️</span></div>
           <div className='flex gap-2 p-3 text-sm'><img className= 'w-9' src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png" alt="" /> <span>Trump donated <b>100$</b> with a message "Election jeetne ki khushi mein"</span></div>
