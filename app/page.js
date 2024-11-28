@@ -6,7 +6,7 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center mt-16 gap-4">
         <div className="flex gap-2 items-center justify-center">
           <h1 className="font-bold text-white text-3xl">Get Me a Chai</h1>
-          <img width={88} src="/tea.gif" alt="" />
+          <img width={88} height={88} src="/tea.gif" alt="" />
         </div>
         <p className="px-4 sm:px-1 text-white">A crowndfunding platform for creators to fund their projects.</p>
         <p className="px-4 sm:px-1 text-white">A place where your fans can buy you a chai. Unleash the power of your fans and get your projects funded.</p>
@@ -21,17 +21,17 @@ export default function Home() {
           <h1 className="font-bold text-white text-xl mb-10">Your Fans can buy you a Chai</h1>
           <div className="text-white flex flex-col sm:flex-row justify-between gap-10 mb-10">
             <div className="flex flex-col justify-center items-center">
-              <div className="bg-gray-400 rounded-full w-12"><img width={44} src="man.gif" alt="" /></div>
+              <div className="bg-gray-400 rounded-full w-12"><img width={44} height={44} src="man.gif" alt="" /></div>
               <h2 className="font-bold space-y-2">Fans want to help</h2>
               <p>Your fans are availabe to support you</p>
             </div>
             <div className="flex flex-col justify-center items-center">
-              <div className="bg-gray-400 rounded-full w-12"> <img width={44} src="coin.gif" alt="" /></div>
+              <div className="bg-gray-400 rounded-full w-12"> <img width={44} height={44} src="coin.gif" alt="" /></div>
               <h2 className="font-bold space-y-2">Fans want to contribute</h2>
               <p>Your fans are willing to contribute financially</p>
             </div>
             <div className="flex flex-col justify-center items-center">
-              <div className="bg-gray-400 rounded-full w-12"><img width={44} src="group.gif" alt="" /></div>
+              <div className="bg-gray-400 rounded-full w-12"><img width={44} height={44} src="group.gif" alt="" /></div>
               <h2 className="font-bold">Fans want to collaborate</h2>
               <p>Your fans are ready to collaborate you</p>
             </div>
